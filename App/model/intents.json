@@ -1,0 +1,1570 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey"
+      ],
+      "responses": [
+        "Hello! I'm here for you. How are you feeling today?",
+        "Hi there! It's good to hear from you. How can I support you today?"
+      ]
+    },
+    {
+      "tag": "feeling_down",
+      "patterns": [
+        "I'm feeling down",
+        "I'm not okay",
+        "I feel sad"
+      ],
+      "responses": [
+        "I'm sorry you're feeling this way. Remember, it's okay to feel down sometimes. Do you want to talk about what's on your mind?",
+        "It's tough when you're feeling low. I'm here to listen if you want to share what's bothering you."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I'm anxious",
+        "I feel nervous all the time",
+        "I'm overwhelmed"
+      ],
+      "responses": [
+        "Anxiety can be really challenging. Let's try a deep breathing exercise together. Inhale slowly, hold, and exhale. How are you feeling now?",
+        "I'm here for you. Sometimes, talking about what's making you anxious can help. Do you want to give it a try?"
+      ]
+    },
+    {
+      "tag": "encouragement",
+      "patterns": [
+        "I need some motivation",
+        "Can you encourage me?",
+        "I'm feeling hopeless"
+      ],
+      "responses": [
+        "You are stronger than you think. Remember that you've made it through tough times before, and you can do it again. I'm here with you.",
+        "It's okay to struggle sometimes. Every step forward, no matter how small, is progress. You’ve got this!"
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "I feel so alone",
+        "No one understands me",
+        "I'm lonely"
+      ],
+      "responses": [
+        "Loneliness can be really painful. But you are not alone right now; I'm here with you. Let's talk.",
+        "It's okay to feel lonely, but remember that there are people who care about you. I'm here, and I'm listening."
+      ]
+    },
+    {
+      "tag": "positive_affirmation",
+      "patterns": [
+        "I need some positivity",
+        "Can you tell me something positive?"
+      ],
+      "responses": [
+        "You are valuable, and your feelings are valid. Every day is a new chance to find some light, even in the smallest things.",
+        "Remember, your worth isn’t defined by what you feel right now. You have a unique and irreplaceable place in this world."
+      ]
+    },
+    {
+      "tag": "coping_strategies",
+      "patterns": [
+        "How can I cope with this?",
+        "I need help managing my feelings"
+      ],
+      "responses": [
+        "There are several ways to cope with difficult emotions. Sometimes, journaling, deep breathing, or talking to someone can help. Would you like to try one of these?",
+        "Coping can be tough, but little steps can make a difference. Have you tried grounding techniques like focusing on the present moment?"
+      ]
+    },
+    {
+      "tag": "professional_help",
+      "patterns": [
+        "I think I need professional help",
+        "Can you help me find a therapist?"
+      ],
+      "responses": [
+        "It’s a big step to reach out for professional help, and it’s a courageous one. I can provide you with resources or help you find a therapist in your area.",
+        "Talking to a mental health professional can be really helpful. Would you like me to guide you on how to find one?"
+      ]
+    },
+    {
+      "tag": "crisis_support",
+      "patterns": [
+        "I don't want to live anymore",
+        "I'm thinking of harming myself"
+      ],
+      "responses": [
+        "I'm so sorry you're feeling this way, but I want you to stay safe. Please reach out to a trusted person or a crisis hotline immediately. You're not alone in this.",
+        "Your life is important, and there are people who care deeply about you. Please seek immediate help from a professional or call a crisis hotline."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "Thank you for helping",
+        "I appreciate you"
+      ],
+      "responses": [
+        "I'm glad I could be here for you. Remember, you don't have to go through this alone.",
+        "You're welcome. I'm always here if you need someone to talk to."
+      ]
+    },
+    {
+      "tag": "closing",
+      "patterns": [
+        "Goodbye",
+        "I'll talk to you later"
+      ],
+      "responses": [
+        "Take care, and remember, I'm always here if you need to talk.",
+        "I'm glad we could chat. Reach out anytime you need support. You’re not alone."
+      ]
+    },
+    {
+      "tag": "sleep_problems",
+      "patterns": [
+        "I can't sleep",
+        "I'm having trouble sleeping",
+        "Insomnia is killing me"
+      ],
+      "responses": [
+        "Sleep issues can be tough. Sometimes a calming routine before bed can help. Have you tried listening to soothing music or meditating?",
+        "It's important to rest, but it's okay if sleep doesn’t come easily. Maybe talking about what’s on your mind can help ease you into sleep."
+      ]
+    },
+    {
+      "tag": "overthinking",
+      "patterns": [
+        "I can't stop thinking",
+        "My mind won't shut off",
+        "I overthink everything"
+      ],
+      "responses": [
+        "Overthinking can be exhausting. It might help to write down your thoughts to get them out of your head. Want to give it a try?",
+        "It's easy to get lost in thoughts, but focusing on the present moment might help. Let’s take it one step at a time."
+      ]
+    },
+    {
+      "tag": "physical_health_concerns",
+      "patterns": [
+        "I'm always tired",
+        "My body feels heavy",
+        "I feel sick all the time"
+      ],
+      "responses": [
+        "It’s important to take care of your body as well as your mind. Have you spoken to a healthcare provider about how you’re feeling physically?",
+        "Sometimes physical and mental health are connected. Let’s talk about how you’re feeling emotionally, and maybe we can find some relief together."
+      ]
+    },
+    {
+      "tag": "loss_grief",
+      "patterns": [
+        "I'm grieving",
+        "I lost someone",
+        "I can't get over the loss"
+      ],
+      "responses": [
+        "Grief is a deep and personal process. It's okay to feel however you feel. Would you like to talk about your loved one?",
+        "Losing someone can leave a big hole in our hearts. Take your time with your feelings; I’m here to support you."
+      ]
+    },
+    {
+      "tag": "fear_of_failure",
+      "patterns": [
+        "I'm afraid to fail",
+        "What if I mess up?",
+        "I feel like a failure"
+      ],
+      "responses": [
+        "Fear of failure is something many people experience. Remember, mistakes are just steps toward growth. How can I support you right now?",
+        "Failure doesn't define you. It’s just a part of the journey. What’s something you’re proud of, even if it’s small?"
+      ]
+    },
+    {
+      "tag": "relationship_issues",
+      "patterns": [
+        "I'm having problems with my partner",
+        "My relationship is falling apart",
+        "I'm struggling with my relationship"
+      ],
+      "responses": [
+        "Relationships can be tough, especially when emotions are high. Do you want to talk about what’s going on?",
+        "It’s okay to have challenges in relationships. Communication can be key. Let’s explore what’s been bothering you."
+      ]
+    },
+    {
+      "tag": "social_anxiety",
+      "patterns": [
+        "I'm afraid to talk to people",
+        "Social situations make me nervous",
+        "I feel anxious around others"
+      ],
+      "responses": [
+        "Social anxiety can make it hard to connect with others. Remember, it’s okay to take small steps at your own pace. How can I help you feel more comfortable?",
+        "It's normal to feel nervous around people sometimes. Let’s think about what might make social situations a bit easier for you."
+      ]
+    },
+    {
+      "tag": "lack_of_motivation",
+      "patterns": [
+        "I can't get motivated",
+        "I don't want to do anything",
+        "I feel so unmotivated"
+      ],
+      "responses": [
+        "Lack of motivation can be a symptom of something deeper. It’s okay to take things one step at a time. What’s one small thing you could try doing today?",
+        "Motivation can come and go. What’s something you usually enjoy that we could focus on to get you moving?"
+      ]
+    },
+    {
+      "tag": "self_esteem_issues",
+      "patterns": [
+        "I hate myself",
+        "I'm not good enough",
+        "I have low self-esteem"
+      ],
+      "responses": [
+        "Self-esteem is something we all struggle with at times. Remember, your value isn’t determined by how you feel right now. What’s one thing you like about yourself?",
+        "It’s easy to be hard on yourself, but you have qualities that make you unique and valuable. Let’s focus on those."
+      ]
+    },
+    {
+      "tag": "seeking_distraction",
+      "patterns": [
+        "I need a distraction",
+        "Can you distract me?",
+        "I want to forget about my problems"
+      ],
+      "responses": [
+        "Sometimes a little distraction can help. How about we talk about something light or fun? Do you have a favorite hobby or interest?",
+        "Let’s take a mental break. What’s something you enjoy doing when you want to clear your mind?"
+      ]
+    },
+    {
+      "tag": "substance_abuse_concerns",
+      "patterns": [
+        "I'm drinking too much",
+        "I'm using drugs to cope",
+        "I think I have a problem with substances"
+      ],
+      "responses": [
+        "It’s good that you’re aware of this. Talking to a professional about substance use can be a great step forward. Would you like some resources?",
+        "Using substances to cope can be a sign that something deeper is going on. I’m here to support you in finding healthier ways to manage."
+      ]
+    },
+    {
+      "tag": "parenting_stress",
+      "patterns": [
+        "Parenting is so hard",
+        "I'm overwhelmed by my kids",
+        "I don't know if I'm a good parent"
+      ],
+      "responses": [
+        "Parenting can be incredibly challenging, and it’s okay to feel overwhelmed. Remember, you’re doing your best. Let’s talk about what’s been hardest for you lately.",
+        "It’s normal to question yourself as a parent. Your love and care show that you’re already doing great. What’s something positive about your parenting?"
+      ]
+    },
+    {
+      "tag": "financial_worries",
+      "patterns": [
+        "I'm worried about money",
+        "I have financial problems",
+        "I can't pay my bills"
+      ],
+      "responses": [
+        "Financial stress can be overwhelming. It might help to talk to a financial advisor, but in the meantime, I’m here to support you emotionally.",
+        "Money worries can take a big toll on mental health. Let’s focus on what you can control right now. I’m here to listen."
+      ]
+    },
+    {
+      "tag": "isolation_covid19",
+      "patterns": [
+        "I'm isolated because of COVID",
+        "The pandemic has me feeling lonely",
+        "COVID-19 is making everything worse"
+      ],
+      "responses": [
+        "The pandemic has been difficult for many people. It’s okay to feel isolated. Let’s talk about ways to stay connected even from a distance.",
+        "COVID-19 has changed a lot in our lives. It’s normal to feel lonely. Maybe reaching out to someone online or by phone could help?"
+      ]
+    },
+    {
+      "tag": "time_management_issues",
+      "patterns": [
+        "I can't manage my time",
+        "I feel overwhelmed with tasks",
+        "I have too much to do"
+      ],
+      "responses": [
+        "Time management can be tough, especially when you’re feeling overwhelmed. Let’s break down your tasks into smaller, manageable steps.",
+        "It’s easy to feel swamped. Maybe we could prioritize your tasks together, focusing on one thing at a time?"
+      ]
+    },
+    {
+      "tag": "career_pressure",
+      "patterns": [
+        "My job is too stressful",
+        "I'm afraid of losing my job",
+        "Work is overwhelming me"
+      ],
+      "responses": [
+        "Work stress is something many people struggle with. Let’s talk about what’s most overwhelming for you right now and see if we can find some relief.",
+        "Your career is important, but so is your mental health. Maybe finding a balance or talking to someone at work could help?"
+      ]
+    },
+    {
+      "tag": "decision_paralysis",
+      "patterns": [
+        "I can't make decisions",
+        "I feel stuck",
+        "I'm paralyzed by choices"
+      ],
+      "responses": [
+        "Decision-making can be really hard, especially when you're feeling stuck. Maybe breaking the choices down into smaller steps could help?",
+        "It's okay to feel uncertain. Sometimes just taking a small step can make the next decision easier."
+      ]
+    },
+    {
+      "tag": "creative_block",
+      "patterns": [
+        "I have a creative block",
+        "I can't think of anything creative",
+        "I'm stuck creatively"
+      ],
+      "responses": [
+        "Creative blocks can happen to everyone. Sometimes stepping away and doing something completely different can spark inspiration. Want to try that?",
+        "It’s okay to feel stuck. Maybe focusing on something small and simple can help get your creativity flowing again."
+      ]
+    },
+    {
+      "tag": "self_sabotage",
+      "patterns": [
+        "I keep sabotaging myself",
+        "Why do I always mess things up?",
+        "I can't stop self-sabotaging"
+      ],
+      "responses": [
+        "Self-sabotage can be a sign of deeper issues like fear or low self-esteem. Let’s explore what’s driving these behaviors so we can work on them together.",
+        "It’s tough to feel like you’re getting in your own way. Recognizing the pattern is the first step to changing it. I’m here to help."
+      ]
+    },
+    {
+      "tag": "anger_management",
+      "patterns": [
+        "I have anger issues",
+        "I can't control my anger",
+        "I'm always angry"
+      ],
+      "responses": [
+        "Anger can be a powerful and sometimes overwhelming emotion. It might help to talk about what’s triggering your anger. I’m here to listen.",
+        "Managing anger can be challenging, but it’s possible with practice. Let’s discuss some strategies to help you cope."
+      ]
+    },
+    {
+      "tag": "feeling_overwhelmed",
+      "patterns": [
+        "I'm feeling overwhelmed",
+        "I can't handle everything",
+        "Life is too much right now"
+      ],
+      "responses": [
+        "It's okay to feel overwhelmed sometimes. Let's take a step back and tackle one thing at a time. What's the most pressing thing on your mind?",
+        "Life can feel heavy at times. Remember, you don't have to carry it all at once. I'm here to help you sort through it."
+      ]
+    },
+    {
+      "tag": "feeling_lonely",
+      "patterns": [
+        "I feel lonely",
+        "I'm so alone",
+        "I have no one to talk to"
+      ],
+      "responses": [
+        "Loneliness can be really tough, but I'm here for you. Would you like to talk about what's making you feel this way?",
+        "Feeling lonely is hard, but you're not alone in this moment. Let's find ways to connect with others or talk about what's on your mind."
+      ]
+    },
+    {
+      "tag": "lack_of_energy",
+      "patterns": [
+        "I have no energy",
+        "I'm always tired",
+        "I can't do anything"
+      ],
+      "responses": [
+        "Lack of energy can be a sign of stress or depression. It's important to listen to your body. Let's talk about what might be draining your energy.",
+        "It's okay to rest when you're feeling this way. Let's explore some gentle ways to care for yourself right now."
+      ]
+    },
+    {
+      "tag": "feeling_empty",
+      "patterns": [
+        "I feel empty",
+        "I'm numb inside",
+        "I don't feel anything"
+      ],
+      "responses": [
+        "Feeling empty can be a sign that something deeper is going on. I'm here to help you explore those feelings if you're ready.",
+        "Numbness can be a way of coping with overwhelming emotions. Let's talk about what's been happening in your life recently."
+      ]
+    },
+    {
+      "tag": "fear_of_future",
+      "patterns": [
+        "I'm afraid of the future",
+        "The future scares me",
+        "I don't know what will happen"
+      ],
+      "responses": [
+        "The future can feel uncertain, and that's okay. Let's focus on what we can control right now and take it one day at a time.",
+        "It's normal to feel anxious about the future. Let's talk about your concerns and see if we can find some peace in the present moment."
+      ]
+    },
+    {
+      "tag": "self_harm_urges",
+      "patterns": [
+        "I want to hurt myself",
+        "I'm thinking about self-harm",
+        "I have urges to self-harm"
+      ],
+      "responses": [
+        "I'm really sorry you're feeling this way, but I can't provide the help you need. It's important to talk to someone who can support you, like a mental health professional or a trusted person in your life.",
+        "Please reach out to someone who can help you right now. You don't have to go through this alone."
+      ]
+    },
+    {
+      "tag": "feeling_stuck",
+      "patterns": [
+        "I'm stuck",
+        "I can't move forward",
+        "I'm trapped in my life"
+      ],
+      "responses": [
+        "Feeling stuck can be really frustrating. Sometimes it helps to talk it through and find small steps to move forward. I'm here to listen.",
+        "It's okay to feel stuck sometimes. Let's explore what's holding you back and how we can work through it together."
+      ]
+    },
+    {
+      "tag": "coping_with_loss",
+      "patterns": [
+        "I'm struggling with a loss",
+        "I can't deal with this grief",
+        "Losing someone is too much for me"
+      ],
+      "responses": [
+        "Grief is a complex and personal journey. It's okay to feel whatever you're feeling. I'm here to support you as you navigate this loss.",
+        "Loss can leave us feeling so many things. Let's talk about your loved one and what you're going through."
+      ]
+    },
+    {
+      "tag": "feeling_unloved",
+      "patterns": [
+        "No one loves me",
+        "I'm unlovable",
+        "I feel so unloved"
+      ],
+      "responses": [
+        "Feeling unloved can be deeply painful, but remember, your worth isn't defined by others. Let's talk about what makes you unique and valuable.",
+        "You are deserving of love and care. Let's explore why you're feeling this way and how we can change that perspective."
+      ]
+    },
+    {
+      "tag": "difficulty_concentrating",
+      "patterns": [
+        "I can't concentrate",
+        "My mind is all over the place",
+        "I can't focus on anything"
+      ],
+      "responses": [
+        "Difficulty concentrating can happen when we're stressed or overwhelmed. Let's break things down into smaller, more manageable tasks.",
+        "It's okay to have trouble focusing. Let's talk about what's on your mind and see if we can clear some space for you to focus."
+      ]
+    },
+    {
+      "tag": "feeling_irritable",
+      "patterns": [
+        "I'm always irritable",
+        "Everything annoys me",
+        "I can't stop snapping at people"
+      ],
+      "responses": [
+        "Irritability can be a sign of stress or other underlying emotions. Let's explore what's been bothering you and find ways to cope.",
+        "It's okay to feel irritable sometimes. Let's talk about what's triggering these feelings and how we can manage them together."
+      ]
+    },
+    {
+      "tag": "lack_of_purpose",
+      "patterns": [
+        "I have no purpose",
+        "I don't know what I'm doing with my life",
+        "I feel so lost"
+      ],
+      "responses": [
+        "It's normal to question your purpose at times. Let's explore what gives your life meaning and how we can bring more of that into your daily life.",
+        "Feeling lost can be really hard, but it can also be a chance to discover new passions. Let's talk about what excites you or interests you."
+      ]
+    },
+    {
+      "tag": "fear_of_judgment",
+      "patterns": [
+        "I'm afraid of what people think",
+        "I feel judged by others",
+        "People are always judging me"
+      ],
+      "responses": [
+        "Fear of judgment can make it hard to be yourself. Remember, you are valuable just as you are. Let's talk about ways to build confidence in yourself.",
+        "It's easy to feel judged by others, but their opinions don't define you. Let's focus on what makes you feel good about yourself."
+      ]
+    },
+    {
+      "tag": "regret_past_decisions",
+      "patterns": [
+        "I regret my past",
+        "I made so many mistakes",
+        "I can't stop thinking about my regrets"
+      ],
+      "responses": [
+        "Regret can be a heavy burden, but the past doesn't define you. Let's talk about what you've learned and how you can move forward.",
+        "Everyone makes mistakes, and it's okay to feel regret. Let's focus on what you can do now to create a better future."
+      ]
+    },
+    {
+      "tag": "coping_with_rejection",
+      "patterns": [
+        "I can't handle rejection",
+        "Rejection hurts so much",
+        "I feel rejected by everyone"
+      ],
+      "responses": [
+        "Rejection is painful, but it doesn't reflect your worth. Let's talk about how you're feeling and find ways to build resilience.",
+        "It's normal to feel hurt by rejection. Let's explore what happened and how you can bounce back from it."
+      ]
+    },
+    {
+      "tag": "feeling_invisible",
+      "patterns": [
+        "I feel invisible",
+        "No one notices me",
+        "I'm always overlooked"
+      ],
+      "responses": [
+        "Feeling invisible can be really isolating. You matter, and your feelings are important. Let's talk about what's making you feel this way.",
+        "It's hard to feel overlooked, but you are seen and valued. Let's explore ways to assert yourself and make your presence known."
+      ]
+    },
+    {
+      "tag": "difficulty_trusting_others",
+      "patterns": [
+        "I can't trust anyone",
+        "I'm afraid to trust people",
+        "People always let me down"
+      ],
+      "responses": [
+        "Trust can be hard to build, especially if you've been hurt before. Let's talk about your experiences and how we can rebuild trust.",
+        "It's okay to be cautious with trust. Let's explore ways to protect yourself while also opening up to others."
+      ]
+    },
+    {
+      "tag": "coping_with_criticism",
+      "patterns": [
+        "I can't handle criticism",
+        "Criticism makes me feel worthless",
+        "I hate being criticized"
+      ],
+      "responses": [
+        "Criticism can be tough to take, but it doesn't define you. Let's talk about how you can use it as a tool for growth without letting it bring you down.",
+        "It's okay to feel hurt by criticism. Let's explore what was said and how we can respond in a way that empowers you."
+      ]
+    },
+    {
+      "tag": "fear_of_abandonment",
+      "patterns": [
+        "I'm afraid of being abandoned",
+        "Everyone leaves me",
+        "I'm scared of losing people"
+      ],
+      "responses": [
+        "Fear of abandonment can be overwhelming, but you're not alone. Let's talk about your fears and how we can address them together.",
+        "It's natural to fear losing those we care about. Let's explore ways to build stronger, more secure relationships."
+      ]
+    },
+    {
+      "tag": "dealing_with_burnout",
+      "patterns": [
+        "I'm burnt out",
+        "I can't keep going",
+        "I'm exhausted from everything"
+      ],
+      "responses": [
+        "Burnout can be a sign that you need to take a break and care for yourself. Let's talk about how we can reduce the stress in your life.",
+        "It's okay to feel exhausted. Let's explore ways to recharge and take care of your mental health."
+      ]
+    },
+    {
+      "tag": "feeling_inadequate",
+      "patterns": [
+        "I'm not good enough",
+        "I feel so inadequate",
+        "I can't do anything right"
+      ],
+      "responses": [
+        "Feeling inadequate is really tough, but remember, you have strengths and qualities that make you unique. Let's focus on those.",
+        "It's easy to be hard on yourself, but you are more capable than you think. Let's talk about your strengths and how to build on them."
+      ]
+    },
+    {
+      "tag": "coping_with_anxiety",
+      "patterns": [
+        "I'm always anxious",
+        "I can't stop worrying",
+        "My anxiety is overwhelming me"
+      ],
+      "responses": [
+        "Anxiety can be really difficult to manage, but there are ways to cope. Let's explore some techniques that might help you find relief.",
+        "It's okay to feel anxious. Let's talk about what's triggering your anxiety and how we can work through it together."
+      ]
+    },
+    {
+      "tag": "coping_with_depression",
+      "patterns": [
+        "I'm so depressed",
+        "I can't get out of this depression",
+        "My depression is getting worse"
+      ],
+      "responses": [
+        "Depression can be really overwhelming, but you don't have to go through it alone. Let's talk about what you're experiencing and find ways to support you.",
+        "It's okay to feel depressed. Let's explore what's been going on in your life and how we can work through it together."
+      ]
+    },
+    {
+      "tag": "coping_with_trauma",
+      "patterns": [
+        "I can't get over my trauma",
+        "My past trauma is haunting me",
+        "I'm struggling with traumatic memories"
+      ],
+      "responses": [
+        "Trauma can have a lasting impact, but healing is possible. Let's talk about your experiences and find ways to support your healing process.",
+        "It's okay to struggle with trauma. Let's explore ways to cope and find some peace."
+      ]
+    },
+    {
+      "tag": "coping_with_chronic_illness",
+      "patterns": [
+        "I'm struggling with my illness",
+        "My chronic illness is too much",
+        "I can't deal with being sick all the time"
+      ],
+      "responses": [
+        "Living with a chronic illness can be really challenging. It's important to take care of both your physical and mental health. I'm here to support you.",
+        "It's okay to feel overwhelmed by your illness. Let's talk about how you're feeling and what we can do to make things a little easier."
+      ]
+    },
+    {
+      "tag": "dealing_with_boredom",
+      "patterns": [
+        "I'm bored all the time",
+        "I can't find anything interesting to do",
+        "Life feels so dull"
+      ],
+      "responses": [
+        "Boredom can be a sign that you need something new or stimulating in your life. Let's talk about your interests and how we can find something exciting to do.",
+        "It's okay to feel bored sometimes. Let's explore some activities or hobbies that might spark your interest."
+      ]
+    },
+    {
+      "tag": "feeling_unappreciated",
+      "patterns": [
+        "I feel unappreciated",
+        "No one values what I do",
+        "I don't feel recognized"
+      ],
+      "responses": [
+        "Feeling unappreciated can be really discouraging. Remember, your efforts matter even if they go unnoticed. Let's talk about how you're feeling.",
+        "It's hard when you don't feel valued. Let's explore ways to assert your worth and find recognition for your efforts."
+      ]
+    },
+    {
+      "tag": "coping_with_change",
+      "patterns": [
+        "I'm struggling with change",
+        "I can't handle these changes",
+        "Change is really hard for me"
+      ],
+      "responses": [
+        "Change can be difficult, especially when it's unexpected. Let's talk about what's changing in your life and how we can navigate it together.",
+        "It's okay to feel unsettled by change. Let's explore ways to adapt and find stability in the midst of it."
+      ]
+    },
+    {
+      "tag": "coping_with_life_transitions",
+      "patterns": [
+        "I'm going through a big life change",
+        "Life transitions are overwhelming",
+        "I don't know how to handle this new phase"
+      ],
+      "responses": [
+        "Life transitions can be both exciting and challenging. Let's talk about what's changing and how we can make this transition smoother for you.",
+        "It's okay to feel unsure during life transitions. Let's explore ways to embrace this new phase with confidence."
+      ]
+    },
+    {
+      "tag": "dealing_with_heartbreak",
+      "patterns": [
+        "I'm heartbroken",
+        "My heart is shattered",
+        "I can't get over this breakup"
+      ],
+      "responses": [
+        "Heartbreak is incredibly painful, but healing is possible. Let's talk about your feelings and how we can support your recovery.",
+        "It's okay to grieve after a breakup. Let's explore ways to heal and move forward at your own pace."
+      ]
+    },
+    {
+      "tag": "coping_with_family_issues",
+      "patterns": [
+        "My family is causing me stress",
+        "I'm struggling with family problems",
+        "I can't deal with my family"
+      ],
+      "responses": [
+        "Family issues can be really challenging to navigate. Let's talk about what's going on and how we can find some solutions together.",
+        "It's okay to feel stressed by family problems. Let's explore ways to manage these challenges and take care of yourself."
+      ]
+    },
+    {
+      "tag": "coping_with_fear",
+      "patterns": [
+        "I'm scared",
+        "I feel so afraid",
+        "Fear is controlling me"
+      ],
+      "responses": [
+        "Fear can be really powerful, but it doesn't have to control you. Let's talk about what's causing your fear and how we can work through it.",
+        "It's okay to feel afraid. Let's explore ways to face your fears and find some peace."
+      ]
+    },
+    {
+      "tag": "coping_with_regret",
+      "patterns": [
+        "I regret my decisions",
+        "I can't stop thinking about my regrets",
+        "Regret is eating me alive"
+      ],
+      "responses": [
+        "Regret can be really painful, but it's also a chance to learn and grow. Let's talk about what you're feeling and how we can move forward.",
+        "It's okay to feel regret, but it doesn't have to define you. Let's explore ways to let go of the past and create a better future."
+      ]
+    },
+    {
+      "tag": "dealing_with_insecurity",
+      "patterns": [
+        "I'm so insecure",
+        "I don't feel good about myself",
+        "I'm always comparing myself to others"
+      ],
+      "responses": [
+        "Insecurity can be really challenging to deal with, but you are valuable just as you are. Let's talk about what's making you feel insecure and how we can boost your confidence.",
+        "It's easy to compare yourself to others, but you have unique qualities that make you special. Let's focus on those."
+      ]
+    },
+    {
+      "tag": "coping_with_guilt",
+      "patterns": [
+        "I feel so guilty",
+        "Guilt is eating me up",
+        "I can't forgive myself"
+      ],
+      "responses": [
+        "Guilt can be a heavy burden, but it's important to be kind to yourself. Let's talk about what's causing your guilt and how we can work through it.",
+        "It's okay to feel guilty, but it's also important to forgive yourself. Let's explore ways to make amends and move forward."
+      ]
+    },
+    {
+      "tag": "coping_with_rejection",
+      "patterns": [
+        "I can't handle rejection",
+        "Rejection hurts so much",
+        "I feel rejected by everyone"
+      ],
+      "responses": [
+        "Rejection is painful, but it doesn't reflect your worth. Let's talk about how you're feeling and find ways to build resilience.",
+        "It's normal to feel hurt by rejection. Let's explore what happened and how you can bounce back from it."
+      ]
+    },
+    {
+      "tag": "feeling_invisible",
+      "patterns": [
+        "I feel invisible",
+        "No one notices me",
+        "I'm always overlooked"
+      ],
+      "responses": [
+        "Feeling invisible can be really isolating. You matter, and your feelings are important. Let's talk about what's making you feel this way.",
+        "It's hard to feel overlooked, but you are seen and valued. Let's explore ways to assert yourself and make your presence known."
+      ]
+    },
+    {
+      "tag": "difficulty_trusting_others",
+      "patterns": [
+        "I can't trust anyone",
+        "I'm afraid to trust people",
+        "People always let me down"
+      ],
+      "responses": [
+        "Trust can be hard to build, especially if you've been hurt before. Let's talk about your experiences and how we can rebuild trust.",
+        "It's okay to be cautious with trust. Let's explore ways to protect yourself while also opening up to others."
+      ]
+    },
+    {
+      "tag": "coping_with_criticism",
+      "patterns": [
+        "I can't handle criticism",
+        "Criticism makes me feel worthless",
+        "I hate being criticized"
+      ],
+      "responses": [
+        "Criticism can be tough to take, but it doesn't define you. Let's talk about how you can use it as a tool for growth without letting it bring you down.",
+        "It's okay to feel hurt by criticism. Let's explore what was said and how we can respond in a way that empowers you."
+      ]
+    },
+    {
+      "tag": "fear_of_abandonment",
+      "patterns": [
+        "I'm afraid of being abandoned",
+        "Everyone leaves me",
+        "I'm scared of losing people"
+      ],
+      "responses": [
+        "Fear of abandonment can be overwhelming, but you're not alone. Let's talk about your fears and how we can address them together.",
+        "It's natural to fear losing those we care about. Let's explore ways to build stronger, more secure relationships."
+      ]
+    },
+    {
+      "tag": "dealing_with_burnout",
+      "patterns": [
+        "I'm burnt out",
+        "I can't keep going",
+        "I'm exhausted from everything"
+      ],
+      "responses": [
+        "Burnout can be a sign that you need to take a break and care for yourself. Let's talk about how we can reduce the stress in your life.",
+        "It's okay to feel exhausted. Let's explore ways to recharge and take care of your mental health."
+      ]
+    },
+    {
+      "tag": "feeling_inadequate",
+      "patterns": [
+        "I'm not good enough",
+        "I feel so inadequate",
+        "I can't do anything right"
+      ],
+      "responses": [
+        "Feeling inadequate is really tough, but remember, you have strengths and qualities that make you unique. Let's focus on those.",
+        "It's easy to be hard on yourself, but you are more capable than you think. Let's talk about your strengths and how to build on them."
+      ]
+    },
+    {
+      "tag": "coping_with_anxiety",
+      "patterns": [
+        "I'm always anxious",
+        "I can't stop worrying",
+        "My anxiety is overwhelming me"
+      ],
+      "responses": [
+        "Anxiety can be really difficult to manage, but there are ways to cope. Let's explore some techniques that might help you find relief.",
+        "It's okay to feel anxious. Let's talk about what's triggering your anxiety and how we can work through it together."
+      ]
+    },
+    {
+      "tag": "coping_with_depression",
+      "patterns": [
+        "I'm so depressed",
+        "I can't get out of this depression",
+        "My depression is getting worse"
+      ],
+      "responses": [
+        "Depression can be really overwhelming, but you don't have to go through it alone. Let's talk about what you're experiencing and find ways to support you.",
+        "It's okay to feel depressed. Let's explore what's been going on in your life and how we can work through it together."
+      ]
+    },
+    {
+      "tag": "coping_with_trauma",
+      "patterns": [
+        "I can't get over my trauma",
+        "My past trauma is haunting me",
+        "I'm struggling with traumatic memories"
+      ],
+      "responses": [
+        "Trauma can have a lasting impact, but healing is possible. Let's talk about your experiences and find ways to support your healing process.",
+        "It's okay to struggle with trauma. Let's explore ways to cope and find some peace."
+      ]
+    },
+    {
+      "tag": "coping_with_chronic_illness",
+      "patterns": [
+        "I'm struggling with my illness",
+        "My chronic illness is too much",
+        "I can't deal with being sick all the time"
+      ],
+      "responses": [
+        "Living with a chronic illness can be really challenging. It's important to take care of both your physical and mental health. I'm here to support you.",
+        "It's okay to feel overwhelmed by your illness. Let's talk about how you're feeling and what we can do to make things a little easier."
+      ]
+    },
+    {
+      "tag": "dealing_with_boredom",
+      "patterns": [
+        "I'm bored all the time",
+        "I can't find anything interesting to do",
+        "Life feels so dull"
+      ],
+      "responses": [
+        "Boredom can be a sign that you need something new or stimulating in your life. Let's talk about your interests and how we can find something exciting to do.",
+        "It's okay to feel bored sometimes. Let's explore some activities or hobbies that might spark your interest."
+      ]
+    },
+    {
+      "tag": "feeling_unappreciated",
+      "patterns": [
+        "I feel unappreciated",
+        "No one values what I do",
+        "I don't feel recognized"
+      ],
+      "responses": [
+        "Feeling unappreciated can be really discouraging. Remember, your efforts matter even if they go unnoticed. Let's talk about how you're feeling.",
+        "It's hard when you don't feel valued. Let's explore ways to assert your worth and find recognition for your efforts."
+      ]
+    },
+    {
+      "tag": "coping_with_change",
+      "patterns": [
+        "I'm struggling with change",
+        "I can't handle these changes",
+        "Change is really hard for me"
+      ],
+      "responses": [
+        "Change can be difficult, especially when it's unexpected. Let's talk about what's changing in your life and how we can navigate it together.",
+        "It's okay to feel unsettled by change. Let's explore ways to adapt and find stability in the midst of it."
+      ]
+    },
+    {
+      "tag": "coping_with_life_transitions",
+      "patterns": [
+        "I'm going through a big life change",
+        "Life transitions are overwhelming",
+        "I don't know how to handle this new phase"
+      ],
+      "responses": [
+        "Life transitions can be both exciting and challenging. Let's talk about what's changing and how we can make this transition smoother for you.",
+        "It's okay to feel unsure during life transitions. Let's explore ways to embrace this new phase with confidence."
+      ]
+    },
+    {
+      "tag": "dealing_with_heartbreak",
+      "patterns": [
+        "I'm heartbroken",
+        "My heart is shattered",
+        "I can't get over this breakup"
+      ],
+      "responses": [
+        "Heartbreak is incredibly painful, but healing is possible. Let's talk about your feelings and how we can support your recovery.",
+        "It's okay to grieve after a breakup. Let's explore ways to heal and move forward at your own pace."
+      ]
+    },
+    {
+      "tag": "coping_with_family_issues",
+      "patterns": [
+        "My family is causing me stress",
+        "I'm struggling with family problems",
+        "I can't deal with my family"
+      ],
+      "responses": [
+        "Family issues can be really challenging to navigate. Let's talk about what's going on and how we can find some solutions together.",
+        "It's okay to feel stressed by family problems. Let's explore ways to manage these challenges and take care of yourself."
+      ]
+    },
+    {
+      "tag": "coping_with_fear",
+      "patterns": [
+        "I'm scared",
+        "I feel so afraid",
+        "Fear is controlling me"
+      ],
+      "responses": [
+        "Fear can be really powerful, but it doesn't have to control you. Let's talk about what's causing your fear and how we can work through it.",
+        "It's okay to feel afraid. Let's explore ways to face your fears and find some peace."
+      ]
+    },
+    {
+      "tag": "coping_with_regret",
+      "patterns": [
+        "I regret my decisions",
+        "I can't stop thinking about my regrets",
+        "Regret is eating me alive"
+      ],
+      "responses": [
+        "Regret can be really painful, but it's also a chance to learn and grow. Let's talk about what you're feeling and how we can move forward.",
+        "It's okay to feel regret, but it doesn't have to define you. Let's explore ways to let go of the past and create a better future."
+      ]
+    },
+    {
+      "tag": "dealing_with_insecurity",
+      "patterns": [
+        "I'm so insecure",
+        "I don't feel good about myself",
+        "I'm always comparing myself to others"
+      ],
+      "responses": [
+        "Insecurity can be really challenging to deal with, but you are valuable just as you are. Let's talk about what's making you feel insecure and how we can boost your confidence.",
+        "It's easy to compare yourself to others, but you have unique qualities that make you special. Let's focus on those."
+      ]
+    },
+    {
+      "tag": "coping_with_guilt",
+      "patterns": [
+        "I feel so guilty",
+        "Guilt is eating me up",
+        "I can't forgive myself"
+      ],
+      "responses": [
+        "Guilt can be a heavy burden, but it's important to be kind to yourself. Let's talk about what's causing your guilt and how we can work through it.",
+        "It's okay to feel guilty, but it's also important to forgive yourself. Let's explore ways to make amends and move forward."
+      ]
+    },
+    {
+      "tag": "coping_with_rejection",
+      "patterns": [
+        "I can't handle rejection",
+        "Rejection hurts so much",
+        "I feel rejected by everyone"
+      ],
+      "responses": [
+        "Rejection is painful, but it doesn't reflect your worth. Let's talk about how you're feeling and find ways to build resilience.",
+        "It's normal to feel hurt by rejection. Let's explore what happened and how you can bounce back from it."
+      ]
+    },
+    {
+      "tag": "feeling_invisible",
+      "patterns": [
+        "I feel invisible",
+        "No one notices me",
+        "I'm always overlooked"
+      ],
+      "responses": [
+        "Feeling invisible can be really isolating. You matter, and your feelings are important. Let's talk about what's making you feel this way.",
+        "It's hard to feel overlooked, but you are seen and valued. Let's explore ways to assert yourself and make your presence known."
+      ]
+    },
+    {
+      "tag": "difficulty_trusting_others",
+      "patterns": [
+        "I can't trust anyone",
+        "I'm afraid to trust people",
+        "People always let me down"
+      ],
+      "responses": [
+        "Trust can be hard to build, especially if you've been hurt before. Let's talk about your experiences and how we can rebuild trust.",
+        "It's okay to be cautious with trust. Let's explore ways to protect yourself while also opening up to others."
+      ]
+    },
+    {
+      "tag": "coping_with_criticism",
+      "patterns": [
+        "I can't handle criticism",
+        "Criticism makes me feel worthless",
+        "I hate being criticized"
+      ],
+      "responses": [
+        "Criticism can be tough to take, but it doesn't define you. Let's talk about how you can use it as a tool for growth without letting it bring you down.",
+        "It's okay to feel hurt by criticism. Let's explore what was said and how we can respond in a way that empowers you."
+      ]
+    },
+    {
+      "tag": "fear_of_abandonment",
+      "patterns": [
+        "I'm afraid of being abandoned",
+        "Everyone leaves me",
+        "I'm scared of losing people"
+      ],
+      "responses": [
+        "Fear of abandonment can be overwhelming, but you're not alone. Let's talk about your fears and how we can address them together.",
+        "It's natural to fear losing those we care about. Let's explore ways to build stronger, more secure relationships."
+      ]
+    },
+    {
+      "tag": "dealing_with_burnout",
+      "patterns": [
+        "I'm burnt out",
+        "I can't keep going",
+        "I'm exhausted from everything"
+      ],
+      "responses": [
+        "Burnout can be a sign that you need to take a break and care for yourself. Let's talk about how we can reduce the stress in your life.",
+        "It's okay to feel exhausted. Let's explore ways to recharge and take care of your mental health."
+      ]
+    },
+    {
+      "tag": "feeling_inadequate",
+      "patterns": [
+        "I'm not good enough",
+        "I feel so inadequate",
+        "I can't do anything right"
+      ],
+      "responses": [
+        "Feeling inadequate is really tough, but remember, you have strengths and qualities that make you unique. Let's focus on those.",
+        "It's easy to be hard on yourself, but you are more capable than you think. Let's talk about your strengths and how to build on them."
+      ]
+    },
+    {
+      "tag": "coping_with_anxiety",
+      "patterns": [
+        "I'm always anxious",
+        "I can't stop worrying",
+        "My anxiety is overwhelming me"
+      ],
+      "responses": [
+        "Anxiety can be really difficult to manage, but there are ways to cope. Let's explore some techniques that might help you find relief.",
+        "It's okay to feel anxious. Let's talk about what's triggering your anxiety and how we can work through it together."
+      ]
+    },
+    {
+      "tag": "coping_with_depression",
+      "patterns": [
+        "I'm so depressed",
+        "I can't get out of this depression",
+        "My depression is getting worse"
+      ],
+      "responses": [
+        "Depression can be really overwhelming, but you don't have to go through it alone. Let's talk about what you're experiencing and find ways to support you.",
+        "It's okay to feel depressed. Let's explore what's been going on in your life and how we can work through it together."
+      ]
+    },
+    {
+      "tag": "coping_with_trauma",
+      "patterns": [
+        "I can't get over my trauma",
+        "My past trauma is haunting me",
+        "I'm struggling with traumatic memories"
+      ],
+      "responses": [
+        "Trauma can have a lasting impact, but healing is possible. Let's talk about your experiences and find ways to support your healing process.",
+        "It's okay to struggle with trauma. Let's explore ways to cope and find some peace."
+      ]
+    },
+    {
+      "tag": "coping_with_chronic_illness",
+      "patterns": [
+        "I'm struggling with my illness",
+        "My chronic illness is too much",
+        "I can't deal with being sick all the time"
+      ],
+      "responses": [
+        "Living with a chronic illness can be really challenging. It's important to take care of both your physical and mental health. I'm here to support you.",
+        "It's okay to feel overwhelmed by your illness. Let's talk about how you're feeling and what we can do to make things a little easier."
+      ]
+    },
+    {
+      "tag": "dealing_with_boredom",
+      "patterns": [
+        "I'm bored all the time",
+        "I can't find anything interesting to do",
+        "Life feels so dull"
+      ],
+      "responses": [
+        "Boredom can be a sign that you need something new or stimulating in your life. Let's talk about your interests and how we can find something exciting to do.",
+        "It's okay to feel bored sometimes. Let's explore some activities or hobbies that might spark your interest."
+      ]
+    },
+    {
+      "tag": "feeling_unappreciated",
+      "patterns": [
+        "I feel unappreciated",
+        "No one values what I do",
+        "I don't feel recognized"
+      ],
+      "responses": [
+        "Feeling unappreciated can be really discouraging. Remember, your efforts matter even if they go unnoticed. Let's talk about how you're feeling.",
+        "It's hard when you don't feel valued. Let's explore ways to assert your worth and find recognition for your efforts."
+      ]
+    },
+    {
+      "tag": "coping_with_change",
+      "patterns": [
+        "I'm struggling with change",
+        "I can't handle these changes",
+        "Change is really hard for me"
+      ],
+      "responses": [
+        "Change can be difficult, especially when it's unexpected. Let's talk about what's changing in your life and how we can navigate it together.",
+        "It's okay to feel unsettled by change. Let's explore ways to adapt and find stability in the midst of it."
+      ]
+    },
+    {
+      "tag": "coping_with_life_transitions",
+      "patterns": [
+        "I'm going through a big life change",
+        "Life transitions are overwhelming",
+        "I don't know how to handle this new phase"
+      ],
+      "responses": [
+        "Life transitions can be both exciting and challenging. Let's talk about what's changing and how we can make this transition smoother for you.",
+        "It's okay to feel unsure during life transitions. Let's explore ways to embrace this new phase with confidence."
+      ]
+    },
+    {
+      "tag": "dealing_with_heartbreak",
+      "patterns": [
+        "I'm heartbroken",
+        "My heart is shattered",
+        "I can't get over this breakup"
+      ],
+      "responses": [
+        "Heartbreak is incredibly painful, but healing is possible. Let's talk about your feelings and how we can support your recovery.",
+        "It's okay to grieve after a breakup. Let's explore ways to heal and move forward at your own pace."
+      ]
+    },
+    {
+      "tag": "coping_with_family_issues",
+      "patterns": [
+        "My family is causing me stress",
+        "I'm struggling with family problems",
+        "I can't deal with my family"
+      ],
+      "responses": [
+        "Family issues can be really challenging to navigate. Let's talk about what's going on and how we can find some solutions together.",
+        "It's okay to feel stressed by family problems. Let's explore ways to manage these challenges and take care of yourself."
+      ]
+    },
+    {
+      "tag": "coping_with_fear",
+      "patterns": [
+        "I'm scared",
+        "I feel so afraid",
+        "Fear is controlling me"
+      ],
+      "responses": [
+        "Fear can be really powerful, but it doesn't have to control you. Let's talk about what's causing your fear and how we can work through it.",
+        "It's okay to feel afraid. Let's explore ways to face your fears and find some peace."
+      ]
+    },
+    {
+      "tag": "coping_with_regret",
+      "patterns": [
+        "I regret my decisions",
+        "I can't stop thinking about my regrets",
+        "Regret is eating me alive"
+      ],
+      "responses": [
+        "Regret can be really painful, but it's also a chance to learn and grow. Let's talk about what you're feeling and how we can move forward.",
+        "It's okay to feel regret, but it doesn't have to define you. Let's explore ways to let go of the past and create a better future."
+      ]
+    },
+    {
+      "tag": "dealing_with_insecurity",
+      "patterns": [
+        "I'm so insecure",
+        "I don't feel good about myself",
+        "I'm always comparing myself to others"
+      ],
+      "responses": [
+        "Insecurity can be really challenging to deal with, but you are valuable just as you are. Let's talk about what's making you feel insecure and how we can boost your confidence.",
+        "It's easy to compare yourself to others, but you have unique qualities that make you special. Let's focus on those."
+      ]
+    },
+    {
+      "tag": "coping_with_guilt",
+      "patterns": [
+        "I feel so guilty",
+        "Guilt is eating me up",
+        "I can't forgive myself"
+      ],
+      "responses": [
+        "Guilt can be a heavy burden, but it's important to be kind to yourself. Let's talk about what's causing your guilt and how we can work through it.",
+        "It's okay to feel guilty, but it's also important to forgive yourself. Let's explore ways to make amends and move forward."
+      ]
+    },
+    {
+      "tag": "coping_with_rejection",
+      "patterns": [
+        "I can't handle rejection",
+        "Rejection hurts so much",
+        "I feel rejected by everyone"
+      ],
+      "responses": [
+        "Rejection is painful, but it doesn't reflect your worth. Let's talk about how you're feeling and find ways to build resilience.",
+        "It's normal to feel hurt by rejection. Let's explore what happened and how you can bounce back from it."
+      ]
+    },
+    {
+      "tag": "feeling_invisible",
+      "patterns": [
+        "I feel invisible",
+        "No one notices me",
+        "I'm always overlooked"
+      ],
+      "responses": [
+        "Feeling invisible can be really isolating. You matter, and your feelings are important. Let's talk about what's making you feel this way.",
+        "It's hard to feel overlooked, but you are seen and valued. Let's explore ways to assert yourself and make your presence known."
+      ]
+    },
+    {
+      "tag": "difficulty_trusting_others",
+      "patterns": [
+        "I can't trust anyone",
+        "I'm afraid to trust people",
+        "People always let me down"
+      ],
+      "responses": [
+        "Trust can be hard to build, especially if you've been hurt before. Let's talk about your experiences and how we can rebuild trust.",
+        "It's okay to be cautious with trust. Let's explore ways to protect yourself while also opening up to others."
+      ]
+    },
+    {
+      "tag": "coping_with_criticism",
+      "patterns": [
+        "I can't handle criticism",
+        "Criticism makes me feel worthless",
+        "I hate being criticized"
+      ],
+      "responses": [
+        "Criticism can be tough to take, but it doesn't define you. Let's talk about how you can use it as a tool for growth without letting it bring you down.",
+        "It's okay to feel hurt by criticism. Let's explore what was said and how we can respond in a way that empowers you."
+      ]
+    },
+    {
+      "tag": "fear_of_abandonment",
+      "patterns": [
+        "I'm afraid of being abandoned",
+        "Everyone leaves me",
+        "I'm scared of losing people"
+      ],
+      "responses": [
+        "Fear of abandonment can be overwhelming, but you're not alone. Let's talk about your fears and how we can address them together.",
+        "It's natural to fear losing those we care about. Let's explore ways to build stronger, more secure relationships."
+      ]
+    },
+    {
+      "tag": "dealing_with_burnout",
+      "patterns": [
+        "I'm burnt out",
+        "I can't keep going",
+        "I'm exhausted from everything"
+      ],
+      "responses": [
+        "Burnout can be a sign that you need to take a break and care for yourself. Let's talk about how we can reduce the stress in your life.",
+        "It's okay to feel exhausted. Let's explore ways to recharge and take care of your mental health."
+      ]
+    },
+    {
+      "tag": "feeling_inadequate",
+      "patterns": [
+        "I'm not good enough",
+        "I feel so inadequate",
+        "I can't do anything right"
+      ],
+      "responses": [
+        "Feeling inadequate is really tough, but remember, you have strengths and qualities that make you unique. Let's focus on those.",
+        "It's easy to be hard on yourself, but you are more capable than you think. Let's talk about your strengths and how to build on them."
+      ]
+    },
+    {
+      "tag": "coping_with_anxiety",
+      "patterns": [
+        "I'm always anxious",
+        "I can't stop worrying",
+        "My anxiety is overwhelming me"
+      ],
+      "responses": [
+        "Anxiety can be really difficult to manage, but there are ways to cope. Let's explore some techniques that might help you find relief.",
+        "It's okay to feel anxious. Let's talk about what's triggering your anxiety and how we can work through it together."
+      ]
+    },
+    {
+      "tag": "coping_with_depression",
+      "patterns": [
+        "I'm so depressed",
+        "I can't get out of this depression",
+        "My depression is getting worse"
+      ],
+      "responses": [
+        "Depression can be really overwhelming, but you don't have to go through it alone. Let's talk about what you're experiencing and find ways to support you.",
+        "It's okay to feel depressed. Let's explore what's been going on in your life and how we can work through it together."
+      ]
+    },
+    {
+      "tag": "coping_with_trauma",
+      "patterns": [
+        "I can't get over my trauma",
+        "My past trauma is haunting me",
+        "I'm struggling with traumatic memories"
+      ],
+      "responses": [
+        "Trauma can have a lasting impact, but healing is possible. Let's talk about your experiences and find ways to support your healing process.",
+        "It's okay to struggle with trauma. Let's explore ways to cope and find some peace."
+      ]
+    },
+    {
+      "tag": "coping_with_chronic_illness",
+      "patterns": [
+        "I'm struggling with my illness",
+        "My chronic illness is too much",
+        "I can't deal with being sick all the time"
+      ],
+      "responses": [
+        "Living with a chronic illness can be really challenging. It's important to take care of both your physical and mental health. I'm here to support you.",
+        "It's okay to feel overwhelmed by your illness. Let's talk about how you're feeling and what we can do to make things a little easier."
+      ]
+    },
+    {
+      "tag": "dealing_with_boredom",
+      "patterns": [
+        "I'm bored all the time",
+        "I can't find anything interesting to do",
+        "Life feels so dull"
+      ],
+      "responses": [
+        "Boredom can be a sign that you need something new or stimulating in your life. Let's talk about your interests and how we can find something exciting to do.",
+        "It's okay to feel bored sometimes. Let's explore some activities or hobbies that might spark your interest."
+      ]
+    },
+    {
+      "tag": "feeling_unappreciated",
+      "patterns": [
+        "I feel unappreciated",
+        "No one values what I do",
+        "I don't feel recognized"
+      ],
+      "responses": [
+        "Feeling unappreciated can be really discouraging. Remember, your efforts matter even if they go unnoticed. Let's talk about how you're feeling.",
+        "It's hard when you don't feel valued. Let's explore ways to assert your worth and find recognition for your efforts."
+      ]
+    },
+    {
+      "tag": "coping_with_change",
+      "patterns": [
+        "I'm struggling with change",
+        "I can't handle these changes",
+        "Change is really hard for me"
+      ],
+      "responses": [
+        "Change can be difficult, especially when it's unexpected. Let's talk about what's changing in your life and how we can navigate it together.",
+        "It's okay to feel unsettled by change. Let's explore ways to adapt and find stability in the midst of it."
+      ]
+    },
+    {
+      "tag": "coping_with_life_transitions",
+      "patterns": [
+        "I'm going through a big life change",
+        "Life transitions are overwhelming",
+        "I don't know how to handle this new phase"
+      ],
+      "responses": [
+        "Life transitions can be both exciting and challenging. Let's talk about what's changing and how we can make this transition smoother for you.",
+        "It's okay to feel unsure during life transitions. Let's explore ways to embrace this new phase with confidence."
+      ]
+    },
+    {
+      "tag": "dealing_with_heartbreak",
+      "patterns": [
+        "I'm heartbroken",
+        "My heart is shattered",
+        "I can't get over this breakup"
+      ],
+      "responses": [
+        "Heartbreak is incredibly painful, but healing is possible. Let's talk about your feelings and how we can support your recovery.",
+        "It's okay to grieve after a breakup. Let's explore ways to heal and move forward at your own pace."
+      ]
+    },
+    {
+      "tag": "coping_with_family_issues",
+      "patterns": [
+        "My family is causing me stress",
+        "I'm struggling with family problems",
+        "I can't deal with my family"
+      ],
+      "responses": [
+        "Family issues can be really challenging to navigate. Let's talk about what's going on and how we can find some solutions together.",
+        "It's okay to feel stressed by family problems. Let's explore ways to manage these challenges and take care of yourself."
+      ]
+    },
+    {
+      "tag": "coping_with_fear",
+      "patterns": [
+        "I'm scared",
+        "I feel so afraid",
+        "Fear is controlling me"
+      ],
+      "responses": [
+        "Fear can be really powerful, but it doesn't have to control you. Let's talk about what's causing your fear and how we can work through it.",
+        "It's okay to feel afraid. Let's explore ways to face your fears and find some peace."
+      ]
+    },
+    {
+      "tag": "coping_with_regret",
+      "patterns": [
+        "I regret my decisions",
+        "I can't stop thinking about my regrets",
+        "Regret is eating me alive"
+      ],
+      "responses": [
+        "Regret can be really painful, but it's also a chance to learn and grow. Let's talk about what you're feeling and how we can move forward.",
+        "It's okay to feel regret, but it doesn't have to define you. Let's explore ways to let go of the past and create a better future."
+      ]
+    },
+    {
+      "tag": "dealing_with_insecurity",
+      "patterns": [
+        "I'm so insecure",
+        "I don't feel good about myself",
+        "I'm always comparing myself to others"
+      ],
+      "responses": [
+        "Insecurity can be really challenging to deal with, but you are valuable just as you are. Let's talk about what's making you feel insecure and how we can boost your confidence.",
+        "It's easy to compare yourself to others, but you have unique qualities that make you special. Let's focus on those."
+      ]
+    },
+    {
+      "tag": "coping_with_guilt",
+      "patterns": [
+        "I feel so guilty",
+        "Guilt is eating me up",
+        "I can't forgive myself"
+      ],
+      "responses": [
+        "Guilt can be a heavy burden, but it's important to be kind to yourself. Let's talk about what's causing your guilt and how we can work through it.",
+        "It's okay to feel guilty, but it's also important to forgive yourself. Let's explore ways to make amends and move forward."
+      ]
+    },
+    {
+      "tag": "coping_with_rejection",
+      "patterns": [
+        "I can't handle rejection",
+        "Rejection hurts so much",
+        "I feel rejected by everyone"
+      ],
+      "responses": [
+        "Rejection is painful, but it doesn't reflect your worth. Let's talk about how you're feeling and find ways to build resilience.",
+        "It's normal to feel hurt by rejection. Let's explore what happened and how you can bounce back from it."
+      ]
+    },
+    {
+      "tag": "feeling_invisible",
+      "patterns": [
+        "I feel invisible",
+        "No one notices me",
+        "I'm always overlooked"
+      ],
+      "responses": [
+        "Feeling invisible can be really isolating. You matter, and your feelings are important. Let's talk about what's making you feel this way.",
+        "It's hard to feel overlooked, but you are seen and valued. Let's explore ways to assert yourself and make your presence known."
+      ]
+    }
+  ]
+}

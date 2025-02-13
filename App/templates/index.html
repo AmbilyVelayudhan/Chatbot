@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Bot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+            background-color: #EDE7F6; /* Light violet */
+            color: #4A148C; /* Dark violet */
+        }
+        #chat-box {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 16px;
+        }
+        #chat-toggle {
+            background-color: #7B1FA2; /* Medium violet */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        #chat-content {
+            display: none;
+            width: 300px;
+            height: 400px;
+            background-color: #9575CD; /* Light violet */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            color: white;
+        }
+        #chat-messages {
+            height: 350px;
+            overflow-y: auto;
+            padding: 10px;
+            background-color: #9575CD; /* Light violet */
+        }
+        #chat-messages .message, #chat-messages .received {
+            color: #ffffff;
+        }
+        #chat-input {
+            display: flex;
+            border-top: 1px solid #7B1FA2; /* Medium violet */
+        }
+        #chat-input input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+            background-color: #4A148C; /* Dark violet */
+            color: white;
+        }
+        #chat-input button {
+            background-color: #7B1FA2; /* Medium violet */
+            color: white;
+            padding: 0 20px;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .message {
+            margin-bottom: 10px;
+            padding: 8px;
+            background-color: #4A148C; /* Dark violet */
+            border-radius: 20px;
+            display: inline-block;
+            max-width: 80%;
+        }
+        .received {
+            background-color: #D1C4E9; /* Lighter violet */
+            color: #4A148C; /* Dark violet */
+            border-radius: 20px;
+            padding: 8px;
+            margin-bottom: 10px;
+            display: inline-block;
+            max-width: 80%;
+        }
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border-top-color: #7B1FA2; /* Medium violet */
+            animation: spin 0.5s linear infinite;
+            display: inline-block;
+            margin: 0 10px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-box">
+        <button id="chat-toggle"><i class="fas fa-comments"></i></button>
+        <div id="chat-content">
+            <div id="chat-messages"></div>
+            <div id="chat-input">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-button">
+                    Send
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#chat-toggle').click(function() {
+                $('#chat-content').slideToggle('fast');
+            });
+
+            $('#send-button').click(function() {
+                sendMessage($('#user-input').val());
+            });
+
+            $('#user-input').keypress(function(e) {
+                if(e.which == 13) {
+                    sendMessage($('#user-input').val());
+                }
+            });
+
+            function sendMessage(message) {
+                if(message.trim() != '') {
+                    $('#chat-messages').append('<div class="message">' + message + '</div><br>');
+                    $('#user-input').val('');
+                    $('#chat-messages').append('<div class="spinner" id="spinner"></div>');
+
+                    $.ajax({
+                        url: '/handle_message',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        data: JSON.stringify({ message: message }),
+                        success: function(data) {
+                            $('#spinner').remove();
+                            $('#chat-messages').append('<div class="message received">' + data.response + '</div><br>');
+                            $('#chat-messages').scrollTop($('#chat-messages')[0].scrollHeight);
+                        },
+                        error: function() {
+                            $('#spinner').remove();
+                            $('#chat-messages').append('<div class="message received">Sorry, there was an error processing your request.</div><br>');
+                            $('#chat-messages').scrollTop($('#chat-messages')[0].scrollHeight);
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
