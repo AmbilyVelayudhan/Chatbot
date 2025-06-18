@@ -4,8 +4,6 @@
 
 📝 Project Overview
 
-✨ Introduction
-
 Mental health is an increasingly important topic in today’s fast-paced world. Many individuals seek a safe and judgment-free space to express their emotions, even if only to a non-human listener. This project, Voice Mental Health Chatbot, aims to bridge that need through technology — providing a kind, always-available chatbot that listens to users either through voice or text and responds empathetically.
 
 This chatbot is not a substitute for professional mental health services, but it offers a supportive environment to help users feel heard and acknowledged.
